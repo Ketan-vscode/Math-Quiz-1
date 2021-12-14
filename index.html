@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body_backgound">
+    <div class="container">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="#" class="navbar-brand">MATH QUIZ</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Player1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Player 2</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <hr>
+        <hr>
+        <div class="footer">
+            <center>
+                <h1 class="text-primary">Game</h1>
+                <hr>
+                <div class="box">
+                    <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+                        <h1 class="text-info"> Player1 Login </h1>
+                        <label for="">User Name:</label>
+                        <input type="text" placeholder="User Name" name="" id="">
+                        <br>
+                        <br>
+                        <br>
+                        <label for="">Email :</label>
+                        <input type="email" placeholder="Enter your Email" name="" id="">
+                        <br>
+                        <br>
+                        <button onClick="adduser()" class="btn btn-success">Login</button>
+
+                    </div>
+                    <hr>
+                    <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+                        <h1 class="text-info"> Player2 Login </h1>
+                        <label for="">User Name:</label>
+                        <input type="text" placeholder="User Name" name="" id="">
+                        <br>
+                        <br>
+                        <br>
+                        <label for="">Email :</label>
+                        <input type="email" placeholder="Enter your Email" name="" id="">
+                        <br>
+                        <br>
+                        <button onClick="adduser()" class="btn btn-success">Login</button>
+
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>

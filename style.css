@@ -1,0 +1,43 @@
+.body_backgound {
+    background: url(/backgound_body.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background: aliceblue;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.nav-item {
+    padding-left: 9px;
+    font-weight: bolder;
+}
+
+.footer {
+    background: aliceblue;
+}
+
+.box {
+    height: 500px;
+    width: 900px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.text-success {
+    font-weight: bolder;
+}
+
+.login_div1 {
+    text-align: center;
+}
